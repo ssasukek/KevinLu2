@@ -1,17 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KevinLu2</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- STEP 1: Change the title tag to be Your Name -->
+    <title>Kevin Lu</title>
+    <!-- STEP 2: INSERT THE BOOTSTRAP 4.6 links here or the Bootstrap 5 CSS link here in the head and the 
+         JavaScript Bundle link right before the closing body tag like it says here 
+         https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>This is not div</h1>
-    <div>
-        <h1>this is div</h1>
-        <h2>another <span>div</span></h2>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
+        <div class="container-fluid">
+            <a class="navbar-brand mb-2 mt-2 h1" href="https://ssasukek.github.io/KevinLu/">Kevin Lu</a>
+        </div>
+    </nav>
+
+    <div class="body">
+      <!-- Add a class with custom styling to this div -->
     </div>
-</body>
+
+    <div class="body">
+        <p id="stuff">random stuff</p>
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+    </div>
+
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://files.worldwildlife.org/wwfcmsprod/images/Panda_in_Tree/hero_small/99i33zyc0l_Large_WW170579.jpg" class="d-block" alt="..." width="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.natgeofe.com/k/75ac774d-e6c7-44fa-b787-d0e20742f797/giant-panda-eating.jpg" class="d-block" alt="..." width="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.natgeofe.com/n/c94eb6f9-8423-466a-8d15-cac97287105e/01pregnantpanda_16x9.jpg?w=1200" class="d-block" alt="..." width="500px">
+          </div>
+        </div>
+      </div>
+
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
+
+    <table>
+      <th>
+        <td>A Person's Name</td><td>Their Fav Animal that starts with the first letter of their first name</td><td># of toes that animal has</td>
+      </th>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+    </table>
+
+  </body>
 </html>

@@ -1,7 +1,8 @@
-div{
-    background-color: aqua;
-    border: black 5px dotted;
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, red , yellow);
 }
-span{
-    background-color: blanchedalmond;
+#stuff{
+    color: aqua;
 }
