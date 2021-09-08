@@ -21,42 +21,73 @@
         </div>
     </nav>
 
-    <div class="body">
+    <div class="custom">
       <!-- Add a class with custom styling to this div -->
+      <p>Hello, Welcome to panda website</p>
     </div>
 
-    <div class="body">
-        <p id="stuff">random stuff</p>
+    <div class="custom">
+        <p id="stuff">Here are some random picture</p>
       <!-- Add the same class as before to apply the same styling to this div.
            ALSO add an id to this div to apply something unique. -->
     </div>
 
     <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://files.worldwildlife.org/wwfcmsprod/images/Panda_in_Tree/hero_small/99i33zyc0l_Large_WW170579.jpg" class="d-block" alt="..." width="500px">
+            <img src="https://files.worldwildlife.org/wwfcmsprod/images/Panda_in_Tree/hero_small/99i33zyc0l_Large_WW170579.jpg" class="d-block mx-auto" alt="..." width="500px">
           </div>
           <div class="carousel-item">
-            <img src="https://i.natgeofe.com/k/75ac774d-e6c7-44fa-b787-d0e20742f797/giant-panda-eating.jpg" class="d-block" alt="..." width="500px">
+            <img src="https://i.natgeofe.com/k/75ac774d-e6c7-44fa-b787-d0e20742f797/giant-panda-eating.jpg" class="d-block mx-auto" alt="..." width="500px">
           </div>
           <div class="carousel-item">
-            <img src="https://i.natgeofe.com/n/c94eb6f9-8423-466a-8d15-cac97287105e/01pregnantpanda_16x9.jpg?w=1200" class="d-block" alt="..." width="500px">
+            <img src="https://i.natgeofe.com/n/c94eb6f9-8423-466a-8d15-cac97287105e/01pregnantpanda_16x9.jpg?w=1200" class="d-block mx-auto" alt="..." width="500px">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
     <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
          and a header row and add at least three more rows. Feel free to change the text.-->
 
-    <table>
-      <th>
-        <td>A Person's Name</td><td>Their Fav Animal that starts with the first letter of their first name</td><td># of toes that animal has</td>
-      </th>
-      <tr>
-        <td></td><td></td><td></td>
-      </tr>
-    </table>
+         <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry the Bird</td>
+              <td>Bob the builder</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
 
   </body>
 </html>
